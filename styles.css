@@ -1,1 +1,14 @@
-body{font-family:sans-serif;}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;color:#111;margin:0}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #eee}
+.wrap{max-width:1100px;margin:0 auto;padding:14px 16px}
+h1{font-size:28px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{display:block;border:1px solid #eee;border-radius:14px;padding:14px;text-decoration:none;color:inherit;transition:box-shadow .15s}
+.card:hover{box-shadow:0 6px 22px rgba(0,0,0,.08)}
+.muted{color:#666;font-size:14px;margin:6px 0 0}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #111;text-decoration:none}
+.badge{display:inline-block;background:#111;color:#fff;padding:2px 8px;border-radius:999px;font-size:12px;margin-left:6px}
+.searchbox{width:100%;padding:10px;border:1px solid #eee;border-radius:10px}
+.toprow{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+nav a{margin-right:10px}
+small{color:#666}
